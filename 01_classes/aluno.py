@@ -7,9 +7,9 @@ class Aluno:
     def calcular(self):
         media = (self.nota1 + self.nota2)/2
         if media >= 7:
-            print("O aluno ,{self.nome},foi aprovado")
+            print(f"O aluno {self.nome} foi aprovado")
         else:
-            print("O aluno ,{self.nome},não foi aprovado")
+            print(f"O aluno {self.nome} não foi aprovado")
 
 aluno1 = Aluno("Julia",7,9)
 aluno2 = Aluno("Ana",2,7)

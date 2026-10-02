@@ -1,4 +1,4 @@
-rom pagamento import Pagamentos
+from pagamento import Pagamentos
 
 class Pix(Pagamentos):
     def __init__(self,valor,chave):
