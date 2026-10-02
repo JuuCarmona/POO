@@ -1,3 +1,5 @@
+import math
+
 from forma import Forma
 
 class Circulo(Forma):
@@ -6,5 +8,5 @@ class Circulo(Forma):
         self.raio = raio
 
     def calcular_area(self):
-        area = (self.raio **2)
+        area = math.pi * (self.raio ** 2)
         print("A área do circulo é igual a:", area)

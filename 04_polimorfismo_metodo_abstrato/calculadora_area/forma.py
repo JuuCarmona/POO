@@ -1,9 +1,9 @@
 from abc import ABC, abstractmethod
 
-class Forma:
+class Forma(ABC):
     def __init__(self,cor):
         self.cor = cor
 
     @abstractmethod
-    def cacular_area(self):
+    def calcular_area(self):
         pass

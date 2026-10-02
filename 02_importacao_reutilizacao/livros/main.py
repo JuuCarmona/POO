@@ -1,4 +1,4 @@
-from oo import Livro
+from livro import Livro
 
 livro_main1 = Livro("python para iniciante",'Carlos Coder',2021)
 livro_main2 = Livro('Web Development Essentials','Laura Developer',2023)
