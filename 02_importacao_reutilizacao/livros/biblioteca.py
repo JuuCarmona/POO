@@ -1,4 +1,4 @@
-from oo import Livro
+from livro import Livro
 livro_biblioteca = Livro('2012','Brian DAmato','2012')
 print(f' Antes de emprestar (biblioteca): Livro disponível?{livro_biblioteca.disponivel}')
 

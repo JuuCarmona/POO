@@ -1,4 +1,4 @@
-from teste import Veiculo
+from veiculo import Veiculo
 
 class Motos(Veiculo):
     def __init__(self,marca,modelo,tipo):
